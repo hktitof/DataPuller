@@ -1,0 +1,8 @@
+{
+  "name": "datapuller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hktitof/DataPuller",
+  "author": "titof <hktitof@gmail.com>",
+  "license": "MIT"
+}
