@@ -178,7 +178,7 @@ export default function Home() {
 
   // import Dynamically the Map component from the hackme package, cus it's using some client side objects
   const Map = dynamic(
-    () => import("../../components/hackme/Map"),
+    () => import("../components/hackme/Map"),
     { ssr: false } // This line is important. It's what prevents server-side render
   );
 
