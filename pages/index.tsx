@@ -4,8 +4,8 @@ import Head from "next/head";
 import { detect } from "detect-browser";
 import dynamic from "next/dynamic";
 import cookieCutter from "cookie-cutter";
-import Footer from "../../components/Footer/Footer";
-import Img from "../../components/smallComp/image/Img";
+import Footer from "../components/Footer/Footer";
+import Img from "../components/smallComp/image/Img";
 import { getGPUTier } from "detect-gpu";
 export default function Home() {
   // this api will return current ip address of the requester
