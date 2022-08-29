@@ -174,7 +174,7 @@ export default function Home() {
     // call the async function "userInfo"  inside the useEffect 
     userInfo();
     // ! FIX ME Continue here, add first visit and last visit functionality
-  }, [gpuTier]);
+  }, []);
 
   // import Dynamically the Map component from the hackme package, cus it's using some client side objects
   const Map = dynamic(
