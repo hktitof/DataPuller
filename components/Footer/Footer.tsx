@@ -40,7 +40,7 @@ export default function Fotter(props) {
         </div>
         <a
           href={props.link}
-          className=""
+          className="hover:cursor-pointer"
           target={"_blank"}
           rel="noreferrer"
         >
