@@ -600,19 +600,19 @@ export default function Home() {
           </div>
         </div>
         {/* // ? About */}
-        <div className="w-full h-full py-8 md:px-8 flex flex-row md:space-x-12">
-          <div className="flex-none hidden md:block sm:w-36 lg:w-44">
+        <div className="w-full h-full py-8 md:px-8 flex md:flex-row flex-col md:space-x-12 items-center space-y-4">
+          <div className="flex-none  w-32 lg:w-44 flex justify-center items-center">
             <Img
               src="titofCercle.png"
               alt="About picture"
               className="opacity-80"
             />
           </div>
-          <div className="flex flex-col space-y-8 md:items-start items-center">
-            <span className="font-About lg:text-5xl md:text-5xl text-4xl sm:text-4xl text-gray-300">
-              About
+          <div className="flex flex-col space-y-8  items-center">
+            <span className="font-extrabold lg:text-5xl md:text-4xl text-2xl sm:text-3xl text-gray-300">
+              What&apos;s this project for?
             </span>
-            <span className="font-sans italic  sm:text-base text-sm text-gray-400 md:text-start text-center">
+            <span className="font-sans italic  sm:text-base text-sm text-gray-400 text-center">
               It&apos;s no secret that sites want to know as much as possible
               about their visitors, whether it&apos;s to show them targeted ads
               or improve their user experience. The goal of this project is to

@@ -14,7 +14,7 @@ const ClickableIcon = props => {
     </a>
   );
 };
-export default function Fotter() {
+export default function Fotter(props) {
   return (
     <>
       {/* // ? Reach me at */}
@@ -39,7 +39,7 @@ export default function Fotter() {
           />
         </div>
         <a
-          href="https://github.com/hktitof/DataPuller"
+          href={props.link}
           className=""
           target={"_blank"}
           rel="noreferrer"
