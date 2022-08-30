@@ -626,7 +626,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer link="https://github.com/hktitof/DataPuller"/>
     </>
   );
 }
