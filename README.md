@@ -73,7 +73,7 @@ in the root of the project "DataPuller", execute in your terminal the command "*
 ##### Step 4 (OPTIONAL) : Add your Google API key inside .env file.
 
 ###### ***Note :***
-###### ***1- ***
+###### ***1- not Adding Google API to the project will cause not returning the correct zip code, might be always "00000"***
 ###### ***2- make sure you enabled Geolocation to this API***
 
 ```Javascript
