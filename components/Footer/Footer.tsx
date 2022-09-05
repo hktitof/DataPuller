@@ -16,8 +16,6 @@ const ClickableIcon = props => {
 };
 export default function Fotter(props) {
   return (
-    <>
-      {/* // ? Reach me at */}
       <div className="bg-AAprimary flex flex-col justify-center items-center py-8 space-y-4">
         {/* // ? Reach me at */}
         <div className="flex flex-row space-x-8 lg:hidden">
@@ -38,12 +36,7 @@ export default function Fotter(props) {
             Icon={YoutubeIcon}
           />
         </div>
-        <a
-          href={props.link}
-          className="hover:cursor-pointer"
-          target={"_blank"}
-          rel="noreferrer"
-        >
+        <a href={props.link} className="" target={"_blank"} rel="noreferrer">
           <div
             className="group flex flex-col font-mono justify-center items-center  text-gray-400 
     text-sm  space-y-2  "
@@ -63,6 +56,5 @@ export default function Fotter(props) {
           </div>
         </a>
       </div>
-    </>
   );
 }
