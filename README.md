@@ -30,18 +30,27 @@
 ## Description
 
 Have you ever wondered how browsers always seem to know your location? You’ve probably noticed that many websites display your location on their homepage, indicating that they know (exactly) where you are. the objective of this project is to show you, how much information can a website collect about and the interaction you do with the website, like the time you spent, your first visit, last visit...etc
-
+---
 #### Technologies & libraries
 
 - Next.js
+- TypeScript
+- Tailwind CSS
 - Nodejs
 - Google API
 - cookie-cutter
 - detect-browser
 - detect-gpu
 - react-leaflet
+---
 
-[Back To The Top](#read-me-template)
+#### Functionalities & Description
+
+- Automatically detect location based on IP Address
+- get Zip Code based on latitude & longitude
+- for the "time spent by user" & "visits dates" in the website, it uses cookies, so if you delete cookies, it will start over.
+
+
 
 ---
 
