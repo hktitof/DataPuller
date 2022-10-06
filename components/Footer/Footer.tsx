@@ -18,7 +18,7 @@ export default function Fotter(props) {
   return (
       <div className="bg-AAprimary flex flex-col justify-center items-center py-8 space-y-4">
         {/* // ? Reach me at */}
-        <div className="flex flex-row space-x-8 lg:hidden">
+        <div className="flex flex-row space-x-8 ">
           <ClickableIcon
             href={"https://github.com/hktitof"}
             Icon={GithubIcon}
